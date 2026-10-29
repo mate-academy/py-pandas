@@ -1,8 +1,100 @@
-# Pandas
+# Pandas Practice Project
 
-**Please note:** read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md)
-before starting.
+Цей проект містить практичні завдання для вивчення бібліотеки pandas в Python. Завдання розроблені для закріплення знань після перегляду навчальних відео.
 
-## Task
+## Опис
 
-You will consolidate your knowledge after the videos(without Matplotlib) you have completed, the terms of the task are in this [file](app/pandas.ipynb).
+Проект включає серію завдань, що охоплюють основні концепції pandas:
+
+- Створення та маніпулювання DataFrame
+- Робота з Series
+- Фільтрація та відбір даних
+- Обчислювані поля
+- Об'єднання DataFrame
+- Математичні операції з Series
+- Робота з рядками
+- Оптимізація продуктивності
+
+## Структура проекту
+
+```
+py-pandas/
+├── app/
+│   └── pandas.ipynb     # Основний файл з завданнями
+├── README.md            # Цей файл
+└── requirements.txt     # Залежності проекту
+```
+
+## Встановлення
+
+1. Клонуйте репозиторій:
+
+```bash
+git clone <repository-url>
+cd py-pandas
+```
+
+2. Встановіть залежності:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Запустіть Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Відкрийте файл `app/pandas.ipynb` та виконайте завдання
+
+## Завдання
+
+### Task 1: Імпорт бібліотек
+
+Імпорт необхідних бібліотек `numpy` та `pandas`
+
+### Task 2: Створення DataFrame
+
+Створення DataFrame з заданого словника з даними про людей
+
+### Task 3: Основні операції з DataFrame
+
+- Відображення колонки Age
+- Додавання нової колонки Salary
+- Фільтрація даних за віком
+
+### Task 4: Обчислювані поля
+
+- Розрахунок року народження
+- Обчислення середнього віку
+- Розрахунок абсолютної різниці з середнім віком
+
+### Task 5: Об'єднання даних та операції з Series
+
+- Concatenate та merge операції з DataFrame
+- Математичні операції з Series
+- Фільтрація парних/непарних чисел
+- Операції з рядками в Series
+
+### Task 6: Оптимізація (Опціональне)
+
+Порівняння продуктивності Python та pandas при обчисленні ковзного середнього
+
+## Вимоги
+
+- Python 3.7+
+- pandas 1.4.3
+- numpy 1.23.1
+- jupyter 1.0.0
+
+## Примітки
+
+- Всі завдання виконуються в Jupyter Notebook
+- Кожне завдання має відповідну комірку для коду
+- Рекомендується виконувати завдання послідовно
+- Для Task 6 потрібно порівняти час виконання різних підходів
+
+## Посилання
+
+Перед початком роботи рекомендується ознайомитися з [керівництвом](https://github.com/mate-academy/py-task-guideline/blob/main/README.md).
